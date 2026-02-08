@@ -26,11 +26,12 @@ function download(url, dest) {
   });
 }
 
-// Batch 2: Core lib files (types, utils, contexts)
+// Batch 3: remaining lib + contexts + image-storage
 const files = [
-  'lib/types.ts',
-  'lib/utils.ts',
-  'lib/supabase.ts',
+  'lib/auth-context.tsx',
+  'lib/series-context.tsx',
+  'lib/indexeddb-storage.ts',
+  'lib/image-storage.ts',
   'lib/firebase.ts',
   'lib/hooks.ts',
 ];
